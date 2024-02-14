@@ -1,0 +1,745 @@
+ <!----------------------LAB2---------------------------->
+<HTML> <HEAD>
+  <TITLE> MGM”S J.N.E.C., Aurangabad</TITLE>
+  </Head>
+  <body text="#660000" bgcolor="Aquamarine" background="..Jellyfish.jpg">
+  Illustration of body tag with its properties
+  <!-- This is a comment -->
+  <pre>
+  This text uses pre tag and preserves nextline and spaces </pre>
+  <p>This text doesnt uses pre tag so doesnt preserves nextline and spaces.. everything will be printed 
+  in the same line</p>
+  <font face="arial" size="6" color="blue"> WELCOME- Example of font tag </font>
+  <h1 align="center"> This is h1 tag text with center aligned </ h1>
+  <h2 align="left"> This is h2 tag text with left aligned </h2>
+  <h3 align="right">This is h3 tag text with right aligned </h3>
+  <h4> This is h4 tag text without alignment</h4>
+  <h5> This is h5 tag Text wit hout alignment </h5>
+  <h6> This is h6 tag text without alignment </h6>
+  <center>
+  <h1 align= "center"> To illustrate text formatting tags </h1>
+  <hr color="red">
+  <P> <marquee behavior="scroll" direction="right"> This is an alternate Marquee text It's me Don! </marquee>
+  <p> This is <i> italized </i> </p>
+  <p> This is <u> underlined </u> </p>
+  <p> This is <b> bold </b> </p>
+  <p> This is <em> emphasized </em> </p>
+  <p>This is <Strong> Strong Text </strong> </p>
+  <p> This is <s> striked text </s> </p>
+  <p> This is <code> computer code </code> </p>
+  <p> This is <sup> superscript </sup> code </p>
+  <p> This is <sub> subscript </sub> code </p>
+  <p> This is <big> big text </big> </p>
+  <p> This is <small> small text </small> </p>
+  </center> </body>
+  </html>
+
+ <!-------------------------------------------------->
+
+  <!------------------------LAB3------------------------->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Exercise 3</title>
+</head>
+<body bgcolor="Aquamarine">
+<h3 align= "left" style="color:rgb(0, 115, 255)">To illustrate ORDER ,UNORDER and NESTED list tags</h3>
+<h5> Order List</h5>
+<h4>Numbered Fruits list:</h4>
+<ol>
+<li>Apples</li> <li>Bananas</li> <li> Lemons</li>
+</ol>
+<h4>Uppercase Letters Vegitable list:</h4>
+<ol type="A">
+<li>Brinjals</li> <li>Carrots</li> <li>Cabbage</li>
+</ol>
+<h4>Roman numbers Shopping list:</h4>
+<ol type="I">
+<li>T Shirt</li> <li>Jeans</li> <li> Sandle</li>
+</ol>
+<h5> Unorder List</h5>
+<h4>Square bullets list:</h4>
+<ul type="square">
+<li>Brinjals</li> <li>Carrots</li> <li>Cabbage</li>
+</ul>
+<h4>Disc bullets list:</h4>
+<ul type="disc">
+<li>T Shirt</li> <li>Jeans</li> <li> Sandle</li>
+</ul>
+<h4> An ordered nested List : </h4>
+<ol>
+<li> Coffee </li> <li> Tea</li>
+<ol type= "a" start="4">
+<li> Black tea </li> <li> Green tea </li> <li value="1"> Ice tea </li>
+<ol type= "i" >
+<li> China </li> <li> Africa </li>
+</ol> </ol> <li> Milk </li>
+</ol> <h4> A Definition List: </h4>
+<dl> <dt> Bangalore </dt> <dd> -Capital City of Karnataka </dd> <dt> Mumbai</dt>
+<dd> -Capital city of Maharashtra </dd>
+</dl> 
+</body>
+</html>
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB4------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Tag</title>
+</head>
+<body alink="yellow" vlink="orange" link="green">
+    <h3 align="center" style="color:rgb(230, 0, 255)">To illustrate Anchor & link Tags BY itthipon</h3>
+    <h4 align="center" style="color:rgb(0, 107, 128)"> Students Information</h4> <hr>
+    <h4>Text as a hyperlink to another page :</h4>
+    <a href="edu.html "> Education Details</a> 
+    </br><a href="hobbies.html ">Hobbies </a>
+    </br><a href="achievments.html ">Achievments </a>
+    </p> <hr> <h4>List Item as a link/hyperlink :</h4>
+    <ol> <li><a href="appleinfo.html">Apple</a></li>
+    <li><a href="oragngeinfo.html">Orange</a></li>
+    <li><a href="waterinfo.html">Water Melon</a></li>
+    </ol> <hr>
+    <p> <h4>Linking within a same page </h4>
+    <a href="#C8">See also Chapter 8 - Binary tree </a> </p>
+    <h2>Chapter 1</h2>
+    <p>This chapter explains Pointers</p>
+    <h2>Chapter 2</h2> <p>This chapter explains variables</p>
+    <h2>Chapter 3</h2> <p>This chapter explains operator</p>
+    <h2>Chapter 4</a></h2> <p>This chapter explains structure</p>
+    <h2>Chapter 5</h2> <p>This chapter explains arrays</p>
+    <h2>Chapter 6</h2><p>This chap ter explains linked list</p>
+    <h2>Chapter 7</h2> <p>This chapter explains expressions</p>
+    <h2><a name="C8">Chapter 8</h2>
+    <p>This chapter explains Binary Trees</p>
+    <h2>Chapter 9</h2> <p>This chapter explains Unordered trees</p>
+    <h2>Chapter 10</h2> <p>This chapter explains Statements</p>
+    <h2>Chapter 11</h2> <p>This chapter explains searching</p>
+    <h2>Chapter 12</h2> <p>This chapter explains sorting</p>
+    <h2>Chapter 13</h2> <p>This chapter explains Binary sort</p>
+    <h2>Chapter 14</h2> <p>This chapter explains merge sort</p>
+    <h2>Chapter 15</h2> <p>This chapter explains heap sort</p>
+    </body>
+</html>
+
+ <!-------------------------------------------------->
+
+  <!-----------------------LAB5-------------------------->
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <center><h3> Study of image tag mobile store by Itthipon Khota </h3>
+        <h4> <code>Online Mobile Shopping</code></h4></center>
+        <font color="#6633CC"><u>Latest Moblies</u></font>
+        <marquee> <a href="http://www.samsung.com/in/home/">
+        <img src="/image/im1.webp" alt="apple phone" width="128" height="128"> &nbsp;<img
+        src="/image/im2.jpg" alt="apple phone" width="128" height="128">
+        &nbsp;<img src="/image/im3.jpg" alt="apple phone" width="128" height="128">&nbsp;<img
+        src="/image/im4.webp" alt="apple phone" width="128" height="128"></a></marquee>
+        <img src="/image/im4.webp" alt="apple phone" width="100" height="100" align="right">
+        <p style="font-size:18px"> Now enjoy clearer and sharper images on your Galaxy S23 (2023), thanks
+        to the larger and more vivid sAMOLED display. With vibrant colours and deeper contrast,
+        everything that you watch on the Galaxy S23 (2023) is as lively as your ride.</p>
+        <img src="/image/im2.jpg" alt="apple phone" width="100" height="100" align="left">
+        <p style="font-size:18px"> Best Entertainment on big screenOptimise your music, video and
+        gaming experience thanks to its 7.20 cm (2.8) QVGA display. Packed with 64 MB of RAM, 128 MB
+        of ROM, and up to 16 GB Micro SD, you can store your life in a flash for as long as you
+        like..</p></br></br></br>
+        <p><strong>Float the image to the right:</strong></p>
+        <p> <img src="/image/im3.jpg" alt="Smiley face" style="float:right;width:50px;height:50px;">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating
+        image.
+        </p> <p><strong>Float the image to the left:</strong></p>
+        <p> <img src="/image/im2.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating
+        image.
+        </p>
+</body>
+</html>
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB6-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <frameset rows="25%,*" >
+        <frame src="topframe.html" name="f1" scrolling="no" frameborder="1" bordercolor="#330033" >
+        <frameset cols="20%,*">
+        <frame src="leftframe.html" name="f2" scrolling="no" frameborder="no" >
+        <frame src="rightframe.html" name="f3" scrolling="no" frameborder="no" >
+        </frameset>
+        </frameset><noframes></noframes>
+</head>
+<body>
+    </body> 
+</html>
+
+<!---------------------top------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> <img src="/image/gif1.gif" align="left" width="100" height="100">
+        <h1 align="center">Online Book Store</h1> </p> <br> <p>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="homepage.html" target="_parent">Home</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="login.html" target="f3">login</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="registration.html" target="f3">Registration</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="catalogue.html" target="f3">Catalogue</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="cart.html" target="f3">Cart</a>&nbsp; </h2> </p>
+        <a href="cse.html" target="f3"><h3>CSE</h3></a><br><br><br>
+</body>
+</html>
+
+<!--------------------------------------------->
+
+<!---------------------left------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="ece.html" target="f3"><h3>ECE</h3></a><br><br><br>
+    <a href="eee.html" target="f3"><h3>EEE</h3></a><br><br><br>
+    <a href="civil.html" target="f3"><h3>Civil</h3></a>
+</body>
+</html>
+
+<!--------------------------------------------->
+
+<!---------------------right------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body bgcolor="pink"> <p>
+        <h2 align="center"><font face="Georgia, Times New Roman, Times, serif" color="green">Online
+        Book Store Information</font></h2>
+        <h3><font face="monotypecorsiva" color="#660000">This is the online book store developed by
+        students of JNEC.
+        <br />It contains book catalogue of various branches like <ul><li> CSE</li>
+        <li>ECT</li><li>CIVIL</li><li>EEE</li></ul></font></h3>
+        </body>
+</body>
+</html>
+
+<!--------------------------------------------->
+
+<!-----------------------LAB7-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3 align= "left" style="color:red">To illustrate Table tags</h3>
+  <center><h3>
+  MGM's JNEC Aurangabad itthipon<br>
+  DEPARTMENT OF MASTER OF COMPUTER APPLICATION<br> W.E.F- 12-July-2016
+  </h3></center>
+  <table border="2" width="75%" cellspacing="2" cellpadding="15" align="center"
+  bordercolor="#6600CC" >
+  <h3> <caption align="left">Class: SYMCA Hall.No:FF49</caption></h3>
+  <tr >
+  <th>Periods</th>
+  <th rowspan="2">8.30-9.20</th> <th rowspan="2">9.20-10.10</th>
+  <th rowspan="2">10.20-11.10</th> <th rowspan="2">11.10-12.00</th>
+  <th rowspan="2">1.30-2.20</th> <th rowspan="2">2.20-3.10</th>
+  <th rowspan="2">3.10-4.00</th> </tr><tr><th> Days</th></tr>
+  <tr>
+  <th>Monday</th> <td>MCA0302</td> <td>MCA0306</td>
+  <td>MCA0304</td> <td>MCA0306</td> <td>MCA0302</td>
+  <td colspan="2"><center>MCA0324</center></td>
+  </tr>
+  <tr>
+  <th>TuesDay</th>
+  <td colspan ="4" bgcolor="cyan"><center>MCA0320/MCA0322</center></td>
+  <td>MCA0310</td> <td>MCA0304</td> <td>MCA308</td>
+  </tr>
+  <tr>
+  <th>Wednesday</th> <td colspan ="2" bgcolor="red"><center>ELETIVE - I</td>
+  <td>MCA0306</td> <td>MCA310</td> <td>MCA304</td>
+  <td>MCA308</td> <td>COUN</td>
+  </tr>
+  <tr>
+  <th>Thursday</th> <td>MCA302</td> <td>MCA0304</td>
+  <td colspan=2""><center>PD0302</center></td>
+  <td colspan="3" bgcolor="cyan"><center>MCA0320/MCA0322</center></td>
+  </tr>
+  <tr>
+  <th>Friday</th> <td>MCA0308</td> <td>MCA0306</td> <td>MCA0308</td>
+  <td>MCA0302</td> <td colspan="2" bgcolor="red"><center>ELECTIVE - II</center></td>
+  <td><a href="jnec.html"><img src="/image/don.png" height="190" width="270" /></a></td>
+  </tr>
+  </table>
+  </body>
+</html>
+
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB8-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>>RegistrationForm</title>
+</head>
+<body bgcolor="#7FFFD4">
+  <h3 align="center"> Study of form tag</h3>
+  <h2 align="center"><u>STUDENT REGISTRATION FORM</u></h2>
+  <form action="abc.html" name="f" method="post" autocomplete="on">
+  <table width="200" border="1" >
+   <tr>
+   <th>FirstName:</th> <td><input
+  type="text"name="id1"id="id1"size="30"maxlength="20"/></td>
+   </tr>
+   <tr>
+   <th >LastName:</th> <td><input
+  type="text"name="id2"id="id2"size="30"maxlength="20"/></td>
+   </tr>
+   <tr>
+   <th >Valid Email:</th> <td><input
+  type="text"name="id3"id="id3"size="70"maxlength="50"/></td>
+   </tr>
+   <tr>
+  <th >Password:</th>
+  <td><inputtype="password"name="id4"id="id4"size="50"maxlength="10"/></td>
+   </tr>
+   <tr>
+  <th>PhoneNumber:</th>
+  <td><input type="text"name="id5" id="id5" size="30" maxlength="11"/></td>
+   </tr>
+   <tr>
+   <th >Address :</th> <td> <textarea cols="50" rows="6" name="addr"> </textarea> </td>
+   </tr>
+   <tr>
+   <th >Gender:</th> <td><b>Male:</b><input type="radio"name="gender"
+  id="r1"value="male"/>
+  <b>Female:</b><input type="radio"name="gender"id="r1"value="female"/></td>
+   </tr>
+   <tr>
+   <th >Date of Birth:</th> <td><input type="text" name="dob"/></td>
+   </tr>
+   <tr>
+   <th >Qualifications:</th> <td><b>SSC</b><input type="checkbox"name="a1"id="a1"/>
+  <b>Percentage:</b><input type="text"name="id9"id="id9"size="5"/></br>
+  <b>HSC</b><input type="checkbox" name="a1" id="a1"/>
+  <b>Percentage:</b><input type="text" name="id10" id="id10" size="5"/></br>
+  <b>BCA</b><input type="checkbox" name="a1" id="a1"/>
+  <b>Percentage:</b><input type="text" name="id11" id="id11" size="5"/></br>
+  <b>MCA</b><input type="checkbox" name="a1" id="a1"/>
+  <b>Percentage:</b><input type="text" name="id12" id="id12" size="5"/></br>
+  <b>MBA</b><input type="checkbox" name="a1" id="a1"/>
+  <b>Percentage:</b><input type="text" name="id13" Id="id13" size="5"/></td>
+</tr>
+<tr>
+<th >Experience</th> <td><select name="sc1" id="sc1" size="1">
+<option>0-1Year</option> <option>2-3Year</option>
+<option>3-5Year</option> <option>Morethan5Year</option>
+</select></td> </tr>
+<tr>
+<th >Upload Photo :</th> <td><input type="file" ></td>
+</tr>
+<tr>
+<td colspan="2">
+<center>
+<input type="submit" value="Submit" onClick="alert('Your Application have been
+Submitted');"/> &nbsp;&nbsp;<input type="reset" value="Reset" onClick="alert('Your
+Applicationis not Submitted');"/>
+ </center></td>
+</tr>
+  </table> </body>
+</html>
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB9-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css examples by Don</title>
+  <link rel="stylesheet" type="text/css" href="abc.css" />
+  <style type="text/css">
+    body
+{
+margin-left:200px; background:#5d9ab2 url('img_tree.png') no-repeat top left;
+}
+h3
+{ text-align:center; }
+div.abc
+{
+border:1px solid gray; margin-left:auto; margin-right:auto; width:90%;
+background-color:#d0f0f6; text-align:left; padding:8px;
+}
+ul.abc
+{ list-style:circle; }
+#xyz
+{
+font-size:18px; font-style:italic;
+}
+
+  </style>
+</head>
+<body>
+  <h3 > Study of CSS </h3>
+  <div class="abc"> <!-- Class selector-->
+  <h2>Types of CSS</h2>
+  <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a
+  document written in a markup language.</p>
+  </div>
+  <!--Inline CSS-->
+  <p style="border-style:dotted solid dashed double">This is some text in a paragraph with dotted
+  border style.</p>
+  <p style="font-family:Arial, Helvetica, sans-serif">This is text with font family arial in a
+  paragraph.</p>
+  <hr />
+  <p id="xyz">This is text with font size 18 and italic style in a paragraph.</p> <!--ID selector-->
+  <ul class="abc">
+  <li>coffee</li>
+  <li>tea</li>
+  <li>coca cola</li>
+  </ul>
+  <p><a href="abc.html" target="_blank">This is a link</a></p>
+  </body>
+  </html>
+</html>
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB10-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <body>
+    <h3> Study of Embedding Multimedia ดอนแก้อันนี้มาครึ่งวัน</h3>
+    <h4>use of Linking</h4>
+    <a href="k.mp3" > Audio song </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="t.mp4"> Video Song</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="a.pdf" target="l"> Open odf file</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="file:///D|/AAD/AAD/intro.docx" target="l"> Open DOC file</a></br>
+    <h2> Audio & Video Library</h2>
+    <table border="2" cellspacing="30">
+    <tr>
+    <td>
+    <h4>use of Embeded tag</h4> <embed width="320" height="200" src="/image/imsss.jpg">
+    </td>
+    <td>
+    <h4>use of Video tag</h4>
+    <video width="320" height="240" autoplay>
+     <source src="/ไม่ต้องมีคำบรรยาย - Anatomy Rabbit (Meal-sic Video).mp4" type="video/mp4">
+     </video>
+    </td>
+    <td>
+    <h4>use of Iframe tag</h4>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/muGwHF0Pe8o" title="YouTube video player" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    </td> </tr>
+    <tr>
+    <td> <h4>use of Object tag for you tube video</h4>
+    <object width="425" height="350">
+     <param name="movie" value="https://www.youtube.com/embed/wD_79Qxu7Dc"/>
+     <embed src="https://www.youtube.com/embed/wD_79Qxu7Dc" width="320" height="240"/>
+    </object>
+    </td>
+    <td>
+    <h4>use of Object tag</h4>
+    <object data="/video/honda.mp4" width="320" height="240" controls>   
+    </object>
+    </td>
+    <td>
+    <h4>use of Object tag for Pdf File</h4>
+    <object data="ENGSE203_LAB02.pdf" type="application/pdf" width="300" height="200">
+    </object>
+    </td> </tr>
+    </table> </body>
+</body>
+</html>
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB11-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script type="text/javascript">
+    var n,a=0,b=1,i,c
+    n=prompt("Enter a number ","")
+    if(n<=0)
+    alert("Invalid number")
+    else
+    {
+    if(n==1)
+    document.write(a)
+    else
+    document.write(a+"<br />"+b)
+    for(i=2;i<n;i++)
+    {
+    c=a+b; a=b; b=c; document.write("<br />"+c)
+    }
+    }
+    function date()
+    {
+    document.write("<h2 style=\"color:red;\">Date Constructor</h2>");
+    var date1=new Date();
+    document.write("<br><b style=\"color:red;\">Date1 Constructor without parameter==</b>"+date1);
+    document.write('<br><b style="color:red;">Date1 Constructor without parameter==</b>'+date1.toGMTString());
+    document.write('<br><b style="color:purple;">getHours() Method in date1==</b>'+date1.getHours());
+    }
+    </script>
+
+</head>
+<body>
+  <body>
+    <h3>study of Java Script</h3>
+    <h1>Calculating the fibonacci series</h1>
+    <input type= "button" onClick="location.href='11.html'" value='refresh'>
+    <input type="button" value="Open new Window" onclick="window.open('2.html')">
+    <input type="button" value="Go back two pages" onclick="history.go(-2)" />
+    <input type="button" value="show today date" onclick="date()" />
+    </body>
+
+</body>
+</html>
+
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB12-------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Validation</title>
+
+  <script type ="text/javascript">
+    function val()
+    { var n=document.f1.name.value;
+    var a=document.f1.age.value;
+    var e=document.f1.email.value;
+   var p=document.f1.pass.value;
+   var p1=document.f1.c_pass.value;
+   var g=document.f1.gender.value;
+    var pos=e.indexOf('@');
+    var dotpos=e.indexOf('.');
+    var lastdotpos=e.lastIndexOf('.');
+    var str=e.substring(pos+1,lastdotpos);
+    if(n=="" || a=="" || e=="" ||p=="" ||p1=="")
+    { alert("Fill all the fields");
+   return true;
+    }
+    if(!(a>=18 && a<=55))
+    { alert("You are not eligible,age range should be 18-55"); return true; }
+    if(n.length < 2)
+    { alert("Name Should be greater than 2 char"); return true;
+    }
+   if(p!=p1)
+   { alert("Your Password does not match with Confirm Password");
+    document.forms[0].p.value="";
+    document.forms[0].p1.value="";
+    document.forms[0].p.focus();
+    return true;
+   }
+   if((document.f1.gender[0].checked==false)&&(document.f1.gender[1].checked==false))
+   { alert("please select the radio button")
+   document.form1.r1[0].focus()
+   return true;
+   }
+    if(pos > lastdotpos)
+    { alert("Enter domain name "); return true;
+    }
+    else if(str.length < 5)
+    { alert("email should have @ and . ");
+    document.getElementById("str").innerHTML="e.g. ravi_singhal30@yahoo.com";
+    return true;
+    }
+   else
+    { document.getElementById("str").innerHTML="Hi...."+n+" <br>Age : "+a+" <br> Email-Id is : "+e;
+    return false;
+   }
+   }
+   </script>
+
+</head>
+<body>
+
+  <h3> Study of DOM In Java Script</h3>
+  <h4> Validation of Registration Form</h4>
+  <form method="post" name="f1" >
+   <p><font color="#993300">Enter First Name :</font>
+   <input name="name" type="text" />
+   </p><font color="#993300">Enter Last Name :</font>
+   <input type="text" placeholder="Enter Last name" pattern="[a-zA-Z0-9_-]{6,12}" title="must
+  be alphanumeric in 6-12 chars" required>
+   <p><font color="#993300">Enter Email</font>
+   <input name="email" type="text" />
+   </p>
+   <p><font color="#993300">Enter Alternate Email</font>
+   <input type="email" placeholder="Enter email address" required>
+   </p>
+   <p><font color="#993300">Enter Password</font>
+   <input type="password" name="pass" />
+   </p>
+   <p><font color="#993300">Enter Confirm Password</font>
+   <input type="password" name="c_pass" />
+   </p>
+   <p><font color="#993300">Enter contact Number</font>
+   <!--HTML 5 validation-->
+   <input type="tel" required />
+   </p>
+  <p><font color="#993300">Enter Age</font>
+   <input type="text" name="age">
+   </p>
+  <p><font color="#993300">Gender</font>
+   <input type="radio" name="gender">Male
+   <input type="radio" name="gender"> FeMale </p>
+  <p><font color="#993300">Enter Credit Card Number</font>
+   <input type="number"size="10" name="credit" min="8" max="12" title="A credit card
+  number" required/>
+   </p>
+  <p><font color="#993300">Search On Google</font>
+   <input type="search" name="googlesearch" required>
+   </p>
+  <p>
+   <input name="submit" type="submit" value="save" onclick="val()" />
+   <input type="reset" name="r" value="cancle"/>
+   </p>
+  <span id="str"> </span>
+  </form> </body>
+</html>
+
+
+<!-------------------------------------------------->
+
+<!-----------------------LAB13-------------------------->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Formatting XML with CSS and Validate using external DTD-->
+<?xml-stylesheet type="text/css" href="library_xml.css"?>
+<!DOCTYPE Library SYSTEM "library.dtd">
+<!--XML Validation using Internal DTD <!DOCTYPE Library
+[ 
+<!ELEMENT Library (#PCDATA|Book)*>
+<!ELEMENT Book (Bid,BName,Price,Author)>
+<!ELEMENT Author (FName|LName)*>
+<!ELEMENT FName (#PCDATA)>
+<!ELEMENT LName (#PCDATA)>
+<!ELEMENT Bid (#PCDATA)>
+<!ELEMENT BName (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Book
+ Language CDATA #FIXED "English"
+ Publication CDATA #REQUIRED
+ Avialable (Yes|No) "No">
+] >-->
+<Library>
+ This is a library XML document with CSS and Validate using external DTD
+ <Book Publication="2011" Avialable="Yes">
+ <Bid>101</Bid>
+ <BName>Let Us C</BName>
+ <Price>430</Price>
+ <Author>
+<FName>Yashwant</FName>
+<LName>Kanetkar</LName>
+<FName>Abc</FName>
+</Author>
+</Book>
+ <Book Language="English" Publication="2011" Avialable="No">
+ <Bid>201</Bid>
+ <BName>Let Us Cpp</BName>
+ <Price>430</Price>
+ <Author>
+<LName>Kanetkar</LName>
+<FName>Yashwant</FName>
+</Author>
+</Book> </Library>
+Library.dtd
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Library (#PCDATA|Book)*>
+<!ELEMENT Book (Bid,BName,Price,Author)>
+<!ELEMENT Author (FName|LName)*>
+<!ELEMENT FName (#PCDATA)>
+<!ELEMENT LName (#PCDATA)>
+<!ELEMENT Bid (#PCDATA)>
+<!ELEMENT BName (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Book
+ Language CDATA #FIXED "English"
+ Publication CDATA #REQUIRED
+ Avialable (Yes|No) "No">
+
+ <!-------------------------------------------------->
+
+ <!--------------------library_xmll.css------------------->
+
+ Library
+{ background-color:#20d8a1; }
+Book
+{
+display:block; margin-bottom:30pt; margin-left:0;
+}
+Bid
+{ color:#ebaa06; font-size:24px; font-family:"Monotype Corsiva"; }
+BName,Price,Author
+{ display:block; color:#0faff4; margin-left:20pt; }
+
+ <!-------------------------------------------------->
+
+  <!--------------------END--------------------->
